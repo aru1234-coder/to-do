@@ -9,6 +9,8 @@ export default function LoginPage() {
     email: "",
     password: "",
   });
+
+  console.log("userData", userData);
   const router = useRouter();
   const handleChange = (e) => {
     const { name, value } = e.target;
